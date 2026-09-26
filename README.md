@@ -73,9 +73,5 @@ Esto autentica, consulta la cuenta, los grupos de red, el estado del dispositivo
 - Los números de serie se muestran ofuscados (últimos 5 caracteres) en el resumen impreso.
 - Considera usar variables de entorno en lugar de `config.json` para entornos de producción.
 
-## 📄 Licencia
-
-Uso interno / pruebas. Ajusta esta sección según cómo quieras licenciar el proyecto.
-
 ---
 Desarrollado por Jaris Aizprúa B. — Diciembre 2025
