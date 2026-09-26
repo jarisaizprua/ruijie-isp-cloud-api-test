@@ -1,0 +1,8 @@
+{
+  "cloudserver": "cloud-eu.ruijienetworks.com",
+  "token_url": "TU_TOKEN_URL_AQUI",
+  "appid": "TU_APPID_AQUI",
+  "secret": "TU_SECRET_AQUI",
+  "device_sn": "SN_DEL_DISPOSITIVO (opcional)",
+  "group_id": "ID_DEL_GRUPO (opcional)"
+}
