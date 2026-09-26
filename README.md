@@ -1,11 +1,13 @@
-# Ruijie Cloud API - Scripts de Prueba
+# Ruijie ISP Cloud API - Scripts de Prueba de Conexión
 
-Scripts en Python para conectarse a la API de **Ruijie Cloud** (`cloud-eu.ruijienetworks.com`), autenticarse mediante OAuth2 y consultar información de cuenta, dispositivos, grupos de red y clientes conectados.
+Scripts en Python para **probar la conexión y autenticación** con la API de **Ruijie ISP Cloud** (`cloud-eu.ruijienetworks.com`), la plataforma de Ruijie orientada a proveedores de servicios de internet (ISP). Permiten validar credenciales mediante OAuth2 y consultar información de cuenta, dispositivos, grupos de red y clientes conectados.
+
+> Este proyecto es de **prueba/diagnóstico** (test de conectividad y de los distintos endpoints de la API), no una integración de producción.
 
 ## 📁 Contenido
 
-- `test_conexion_api_ruijie.py` — Script simple para probar la autenticación (obtiene y guarda el `accessToken`).
-- `test_funciones_api_ruijie.py` — Clase `RuijieAPI` con métodos para:
+- `test_conexion_api_ruijie.py` — Script simple para probar la **conexión y autenticación** contra la API de Ruijie ISP Cloud (obtiene y guarda el `accessToken`).
+- `test_funciones_api_ruijie.py` — Clase `RuijieAPI` que, una vez validada la conexión, prueba distintos endpoints:
   - Autenticación (OAuth2)
   - Información de cuenta
   - Grupos de red (árbol de grupos)
@@ -70,6 +72,10 @@ Esto autentica, consulta la cuenta, los grupos de red, el estado del dispositivo
 - No compartas ni subas `config.json` ni `token_actual.txt`.
 - Los números de serie se muestran ofuscados (últimos 5 caracteres) en el resumen impreso.
 - Considera usar variables de entorno en lugar de `config.json` para entornos de producción.
+
+## 📄 Licencia
+
+Uso interno / pruebas. Ajusta esta sección según cómo quieras licenciar el proyecto.
 
 ---
 Desarrollado por Jaris Aizprúa B. — Diciembre 2025
